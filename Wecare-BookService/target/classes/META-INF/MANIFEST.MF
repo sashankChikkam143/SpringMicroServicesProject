@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: sashank chikkam
+Build-Jdk: 17.0.3
+Implementation-Title: wecare-project
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.infy.wecare
+Implementation-URL: https://spring.io/projects/spring-boot/wecare-projec
+ t
+Created-By: Maven Integration for Eclipse
+

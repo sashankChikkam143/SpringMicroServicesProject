@@ -1,0 +1,21 @@
+server:
+  port: 8200
+  
+spring:
+  application:
+    name: CoachService
+  cloud:
+    consul:
+      host: localhost
+      discovery:
+        hostname: localhost
+      config:
+        fail-fast: true
+        enabled: true
+        prefixes: config
+        default-context: application
+        data-key: data
+        profile-separator: '::'
+        format: yaml
+    
+        
