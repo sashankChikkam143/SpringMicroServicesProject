@@ -1,0 +1,23 @@
+spring: 
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: BookServiceMS
+          uri: lb://BookServiceMS
+          predicates:
+            - Path=/plans/**
+        - id: CoachService
+          uri: lb://CoachService
+          predicates:
+            - Path=/customers/*/friends
+        - id: UserService
+          uri: lb://UserService
+          predicates:
+            - Path=/customers/*/friends
+      
+      
+         
+      
